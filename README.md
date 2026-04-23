@@ -1,6 +1,5 @@
 # Real Estate Website
 
-Live url: [https://a09m53-realestate.web.app/](https://a09m53-realestate.web.app/)
 
 Few notable features:
 - Listing of properties.
