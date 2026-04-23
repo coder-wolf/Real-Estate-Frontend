@@ -1,0 +1,137 @@
+[
+    {
+        "id": "1",
+        "estate_title": "Sunnyvale Estates",
+        "image_url": "https://cdn.houseplansservices.com/content/snoqu58k9832ttp1lnjcciq386/w575.jpg?v=9",
+        "segment_name": "Luxury",
+        "description": "A beautiful 5-bedroom estate with modern amenities and a spacious backyard.",
+        "price": 1200000,
+        "status": "sale",
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "area": "3500 sq ft",
+        "location": "1234 Maple Street, Sunnyvale, CA",
+        "facilities": [
+            "Living room",
+            "Swimming pool",
+            "Kitchen",
+            "Garage",
+            "Garden"
+        ]
+    },
+    {
+        "id": "2",
+        "estate_title": "Ocean Breeze Villa",
+        "image_url": "https://cdn.houseplansservices.com/content/h0rig2dbr8vsg0fcgqco7acmul/w991x660.jpg?v=9",
+        "segment_name": "Luxury",
+        "description": "A serene beachfront villa with stunning ocean views.",
+        "price": 2500000,
+        "status": "sale",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "area": "4000 sq ft",
+        "location": "789 Ocean Drive, Malibu, CA",
+        "facilities": [
+            "Living room",
+            "Swimming pool",
+            "Kitchen",
+            "Private beach access"
+        ]
+    },
+    {
+        "id": "3",
+        "estate_title": "Downtown Apartment",
+        "image_url": "https://cdn.houseplansservices.com/content/9a0kud8eguqun8d72nctn0all2/w991x660.jpg?v=10",
+        "segment_name": "Urban",
+        "description": "A modern apartment in the heart of the city, close to all amenities.",
+        "price": 3200,
+        "status": "rent",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "area": "1200 sq ft",
+        "location": "456 Elm Street, New York, NY",
+        "facilities": [
+            "Living room",
+            "Kitchen",
+            "Gym",
+            "Concierge"
+        ]
+    },
+    {
+        "id": "4",
+        "estate_title": "Suburban Family Home",
+        "image_url": "https://www.samslist.us/wp-content/uploads/2020/11/cool-house-pool-arq-pinterest_63660.jpg",
+        "segment_name": "Family",
+        "description": "A cozy 3-bedroom home in a quiet suburban neighborhood.",
+        "price": 650000,
+        "status": "sale",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "area": "2500 sq ft",
+        "location": "1010 Cedar Lane, Austin, TX",
+        "facilities": [
+            "Living room",
+            "Kitchen",
+            "Backyard",
+            "Garage"
+        ]
+    },
+    {
+        "id": "5",
+        "estate_title": "Mountain Retreat",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFcd60ZZ-6fr_ekLLoVYYwfwveVjblBh2cPg&s",
+        "segment_name": "Nature",
+        "description": "A peaceful mountain retreat surrounded by nature.",
+        "price": 1800,
+        "status": "rent",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "area": "1800 sq ft",
+        "location": "789 Pine Ridge Road, Aspen, CO",
+        "facilities": [
+            "Living room",
+            "Fireplace",
+            "Kitchen",
+            "Deck"
+        ]
+    },
+    {
+        "id": "6",
+        "estate_title": "Modern Nature Home",
+        "image_url": "https://media.architecturaldigest.com/photos/569992ccc6772b76145675a2/16:9/w_2580,c_limit/retreat-the-modern-house-in-nature-01.jpg",
+        "segment_name": "Luxury",
+        "description": "A modern home located in the heart of nature, blending comfort with stunning views.",
+        "price": 1900000,
+        "status": "sale",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "area": "3000 sq ft",
+        "location": "2222 Forest Lane, Boulder, CO",
+        "facilities": [
+            "Living room",
+            "Kitchen",
+            "Deck",
+            "Home Theater"
+        ]
+    },
+    {
+        "id": "7",
+        "estate_title": "Contemporary Dream House",
+        "image_url": "https://architecturebeast.com/wp-content/uploads/2014/08/Top_50_Modern_House_Designs_Ever_Built_featured_on_architecture_beast_51.jpg",
+        "segment_name": "Luxury",
+        "description": "A stunning contemporary home with sleek lines and modern design.",
+        "price": 3000000,
+        "status": "sale",
+        "bedrooms": 6,
+        "bathrooms": 5,
+        "area": "5000 sq ft",
+        "location": "3456 Design Avenue, Los Angeles, CA",
+        "facilities": [
+            "Living room",
+            "Swimming pool",
+            "Kitchen",
+            "Home Gym",
+            "Rooftop Terrace"
+        ]
+    }
+]

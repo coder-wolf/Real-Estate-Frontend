@@ -1,0 +1,59 @@
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+
+const Banner = () => {
+    const navigate = useNavigate();
+    const [selectedTab, setSelectedTab] = useState(0);
+
+    const handleChangeTab = tab => {
+        setSelectedTab(tab);
+    }
+
+    return (
+        <div>
+            <div className="bg-[#F4F4FB] pb-16">
+                <div className="flex-col lg:flex-row-reverse px-32">
+                    <img
+                        src=""
+                        className="w-1/2 rounded-lg shadow-2xl" />
+                    <div className='w-1/3 pt-12'>
+                        <h1 className="text-5xl font-semibold">Buy, rent, or sell your property easily</h1>
+                        <p className="py-6 font-medium">
+                            A great platform to buy, sell or even rent your properties without any commisions.
+                        </p>
+                        <div className='flex gap-16 mb-10'>
+                            <div className='flex flex-col border-l-2 pl-4'>
+                                <span className='text-[#675AEF] text-4xl font-semibold'>50k+</span>
+                                <span className='text-gray-500'>renters</span>
+                            </div>
+                            <div className='flex flex-col border-l-2 pl-4'>
+                                <span className='text-[#675AEF] text-4xl font-semibold'>10k+</span>
+                                <span className='text-gray-500'>renters</span>
+                            </div>
+                        </div>
+                        <div className=''>
+                            <button onClick={() => handleChangeTab(0)} className={`bg-white p-2 px-6 ${selectedTab == 0 ? "border-b-2 border-[#7266F1]" : ""}`}>Rent</button>
+                            <button onClick={() => handleChangeTab(1)} className={`bg-white p-2 px-6 ${selectedTab == 1 ? "border-b-2 border-[#7266F1]" : ""}`}>Buy</button>
+                            <button onClick={() => handleChangeTab(2)} className={`bg-white p-2 px-6 ${selectedTab == 2 ? "border-b-2 border-[#7266F1]" : ""}`}>Sell</button>
+                        </div>
+                        <div className='grid grid-cols-3 bg-white shadow-xl rounded-lg p-4 w-max items-center'>
+                            <div className='flex flex-col border-r-2 mr-5'>
+                                <span className='text-gray-400'>Location</span>
+                                <span className='font-semibold'>Barcelona, Spain</span>
+                            </div>
+                            <div className='flex flex-col border-r-2 mr-3 pr-4'>
+                                <span className='text-gray-400'>When</span>
+                                <span className='font-semibold'>Select Move-in Date</span>
+                            </div>
+                            <div className=''>
+                                <button onClick={() => navigate('/listing')} className='bg-[#7065F0] text-white p-3 px-5 rounded-md'>Browse Properties</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default Banner;
