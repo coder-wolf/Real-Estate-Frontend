@@ -1,5 +1,6 @@
 # Real Estate Website
 
+Live URL: https://real-estate-frontend2-flax.vercel.app/
 
 Few notable features:
 - Listing of properties.
